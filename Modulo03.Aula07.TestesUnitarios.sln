@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo03.Aula07.TestesUnitarios", "Modulo03.Aula07.TestesUnitarios.csproj", "{906A8762-E2D7-4EE1-8A5F-EF905760C1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestsContactService", "TestsContactService", "{ED36150D-FDF5-44C0-AA93-1DD0B104D953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsContactService", "..\TestsContactService\TestsContactService.csproj", "{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906A8762-E2D7-4EE1-8A5F-EF905760C1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906A8762-E2D7-4EE1-8A5F-EF905760C1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906A8762-E2D7-4EE1-8A5F-EF905760C1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906A8762-E2D7-4EE1-8A5F-EF905760C1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47AAF1BE-F76B-4405-9F01-5A7A7D2A513D} = {ED36150D-FDF5-44C0-AA93-1DD0B104D953}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73936DFC-1DB3-4339-B580-ED8E818845A1}
+	EndGlobalSection
+EndGlobal
